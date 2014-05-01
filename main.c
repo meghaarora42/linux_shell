@@ -7,6 +7,7 @@
 #include<signal.h>
 #include <fcntl.h>
 #define hist_size 1024 
+
 char *hist[hist_size];
 int f=0;   //to save change in directory
 int head=0, filled=0;
